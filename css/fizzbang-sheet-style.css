@@ -1,0 +1,54 @@
+/* Main-Body */
+
+.main{
+    background: url(../assets/images/background-fizzbang.png) no-repeat center center fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+@media (max-width: 912px) and (orientation: portrait){
+    
+    .main{
+        background: #272926;
+        height: 100%;
+    }
+}
+
+/* 3 Components: Top-Navbar, Main-Content, Footer */
+
+        .top-nav-bar a.text-link::before{
+        background: rgb(243, 106, 163);
+        }
+
+        /* Character-Components: Selection, Sheet, Extras, Menu */
+
+        /*Active if only one trait*/
+            .extra-selection{
+                justify-content: end; 
+            } 
+
+            .extra-box .hover-background-box{
+                background-color: rgba(42, 42, 61, 0.753);
+            }
+
+                .character-box-gradient-background{
+                    background: linear-gradient(to top, #e477ad9a, #9907fa00);
+                }
+
+                .fizzbang-box{
+                    filter: grayscale(0%);
+                }
+
+                .fizzbang-box img{
+                    border: 2px solid rgb(243, 106, 163);
+                }
+
+        .footer-text{
+            color: rgba(255, 255, 255, 0.6);
+        }
+
+        .credits-link{
+            color: rgba(255, 255, 255, 0.6);
+        }

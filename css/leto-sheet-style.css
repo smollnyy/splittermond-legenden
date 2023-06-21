@@ -1,0 +1,49 @@
+/* Main-Body */
+
+.main{
+    background: url(../assets/images/background-leto.png) no-repeat center center fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+@media (max-width: 912px) and (orientation: portrait){
+    
+    .main{
+        background: #272926;
+        height: 100%;
+    }
+}
+
+/* 3 Components: Top-Navbar, Main-Content, Footer */
+
+        .top-nav-bar a.text-link::before{
+        background: rgb(146, 157, 255);
+        }
+
+        /* Character-Components: Selection, Sheet, Extras, Menu */
+
+        .extra-selection{
+            justify-content: end; 
+        } 
+
+                .character-box-gradient-background{
+                    background: linear-gradient(to top, #658eff9a, #9907fa00);
+                }
+
+                .leto-box{
+                    filter: grayscale(0%);
+                }
+
+                .leto-box img{
+                    border: 2px solid rgb(146, 157, 255);
+                }
+
+        .footer-text{
+            color: rgba(255, 255, 255, 0.6);
+        }
+
+        .credits-link{
+            color: rgba(255, 255, 255, 0.6);
+        }
